@@ -22,8 +22,8 @@
 import math
 a = int(input("ведите количество скторов"))
 r = int(input("задайте радиус круга"))
-def ploshadSect():
+def ploshadSect(a,r):
     ploshad = (math.pi*r**2)/a
     return ploshad
-print(ploshadSect())
+print(ploshadSect(a,r))
 
