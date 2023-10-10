@@ -29,19 +29,21 @@ import math
 #     print(f"{key}:{item}")
 
 
-import random
-def getHealth():
+# import random
+# def getHealth():
+#
+#     health = 100
+#     i = 0
+#     while True:
+#         i+=1
+#         a = random.randint(1, 20)
+#         b = random.randint(1, 20)
+#         if a > b:
+#             health -= 20
+#         if health <= 0:
+#             print("здоровье законилось",i)
+#             break
+#
+# getHealth()
 
-    health = 100
-    i = 0
-    while True:
-        i+=1
-        a = random.randint(1, 20)
-        b = random.randint(1, 20)
-        if a > b:
-            health -= 20
-        if health <= 0:
-            print("здоровье законилось",i)
-            break
 
-getHealth()
